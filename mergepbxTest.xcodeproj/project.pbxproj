@@ -38,8 +38,8 @@
 		99E56B331E5095CA002BED8D = {
 			isa = PBXGroup;
 			children = (
-				99E56B3E1E5095CA002BED8D /* mergepbxTest */,
 				99E56B3D1E5095CA002BED8D /* Products */,
+				99E56B3E1E5095CA002BED8D /* mergepbxTest */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +54,41 @@
 		99E56B3E1E5095CA002BED8D /* mergepbxTest */ = {
 			isa = PBXGroup;
 			children = (
-				99E56B3F1E5095CA002BED8D /* AppDelegate.swift */,
-				99E56B411E5095CA002BED8D /* ViewController.swift */,
-				99E56B431E5095CA002BED8D /* Main.storyboard */,
-				99E56B461E5095CA002BED8D /* Assets.xcassets */,
-				99E56B481E5095CA002BED8D /* LaunchScreen.storyboard */,
-				99E56B4B1E5095CA002BED8D /* Info.plist */,
+				99E56B531E509655002BED8D /* Resources */,
+				99E56B521E50964F002BED8D /* Sources */,
+				99E56B541E50965E002BED8D /* Supporting Files */,
 			);
 			path = mergepbxTest;
+			sourceTree = "<group>";
+		};
+		99E56B521E50964F002BED8D /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				99E56B3F1E5095CA002BED8D /* AppDelegate.swift */,
+				99E56B411E5095CA002BED8D /* ViewController.swift */,
+			);
+			name = Sources;
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		99E56B531E509655002BED8D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				99E56B461E5095CA002BED8D /* Assets.xcassets */,
+				99E56B481E5095CA002BED8D /* LaunchScreen.storyboard */,
+				99E56B431E5095CA002BED8D /* Main.storyboard */,
+			);
+			name = Resources;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		99E56B541E50965E002BED8D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				99E56B4B1E5095CA002BED8D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,6 +178,7 @@
 				99E56B441E5095CA002BED8D /* Base */,
 			);
 			name = Main.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 		99E56B481E5095CA002BED8D /* LaunchScreen.storyboard */ = {
@@ -159,6 +187,7 @@
 				99E56B491E5095CA002BED8D /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -262,7 +291,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = L738KA9SZ5;
-				INFOPLIST_FILE = mergepbxTest/Info.plist;
+				INFOPLIST_FILE = "mergepbxTest/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zinyakov.mergepbxTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -275,7 +304,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = L738KA9SZ5;
-				INFOPLIST_FILE = mergepbxTest/Info.plist;
+				INFOPLIST_FILE = "mergepbxTest/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zinyakov.mergepbxTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
