@@ -56,23 +56,16 @@
 		99E56B3E1E5095CA002BED8D /* mergepbxTest */ = {
 			isa = PBXGroup;
 			children = (
+<<<<<<< HEAD
 				99E56B551E50980A002BED8D /* UI */,
+				99E56B3F1E5095CA002BED8D /* AppDelegate.swift */,
+				99E56B461E5095CA002BED8D /* Assets.xcassets */,
+=======
 				99E56B531E509655002BED8D /* Resources */,
 				99E56B521E50964F002BED8D /* Sources */,
 				99E56B541E50965E002BED8D /* Supporting Files */,
 			);
 			path = mergepbxTest;
-			sourceTree = "<group>";
-		};
-		99E56B551E50980A002BED8D /* UI */ = {
-			isa = PBXGroup;
-			children = (
-				99E56B481E5095CA002BED8D /* LaunchScreen.storyboard */,
-				99E56B411E5095CA002BED8D /* ViewController.swift */,
-				99E56B431E5095CA002BED8D /* Main.storyboard */,
-				99E56B561E509832002BED8D /* TestClass.swift */,
-			);
-			name = UI;
 			sourceTree = "<group>";
 		};
 		99E56B521E50964F002BED8D /* Sources */ = {
@@ -99,10 +92,22 @@
 		99E56B541E50965E002BED8D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+>>>>>>> origin/synx-and-groups
 				99E56B4B1E5095CA002BED8D /* Info.plist */,
 			);
 			name = "Supporting Files";
 			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		99E56B551E50980A002BED8D /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				99E56B481E5095CA002BED8D /* LaunchScreen.storyboard */,
+				99E56B411E5095CA002BED8D /* ViewController.swift */,
+				99E56B431E5095CA002BED8D /* Main.storyboard */,
+				99E56B561E509832002BED8D /* TestClass.swift */,
+			);
+			name = UI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
